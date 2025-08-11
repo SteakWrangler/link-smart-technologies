@@ -26,6 +26,7 @@ const Hero = () => {
               variant="default" 
               size="lg"
               className="text-lg px-8 py-6 shadow-glow-primary hover:shadow-glow-accent transition-all duration-300"
+              onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
             >
               View Our Work
             </Button>
@@ -33,6 +34,7 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               className="text-lg px-8 py-6 border-primary/50 hover:border-primary transition-all duration-300"
+              onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
             >
               Get in Touch
             </Button>
