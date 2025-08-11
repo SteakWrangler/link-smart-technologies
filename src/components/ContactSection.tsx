@@ -52,15 +52,6 @@ const ContactSection = () => {
                 <li>• API Development & Integration</li>
                 <li>• UI/UX Design & Implementation</li>
               </ul>
-              
-              <div className="mt-6">
-                <Button 
-                  className="w-full shadow-glow-primary hover:shadow-glow-accent transition-all duration-300"
-                  onClick={() => window.open('mailto:linksmarttechlc@gmail.com', '_blank')}
-                >
-                  Start Your Project
-                </Button>
-              </div>
             </div>
           </div>
         </Card>
