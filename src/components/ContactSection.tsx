@@ -1,6 +1,4 @@
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Mail, Globe, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   return (
@@ -17,41 +15,69 @@ const ContactSection = () => {
         </div>
         
         <Card className="p-8 bg-card/50 backdrop-blur-sm border-border/50">
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-2xl font-bold mb-6">LinkSmart Technologies LLC</h3>
+          <div className="text-center">
+            <h3 className="text-3xl font-bold mb-8">Our Services</h3>
+            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
               <div className="space-y-4">
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                    <Mail className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium">Email us at</p>
-                    <p className="text-muted-foreground">linksmarttechlc@gmail.com</p>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">Custom Web Application Development</h4>
+                    <p className="text-muted-foreground text-sm">Tailored web applications built from the ground up to meet your specific needs.</p>
                   </div>
                 </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                    <MapPin className="h-5 w-5 text-primary" />
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">React & TypeScript Development</h4>
+                    <p className="text-muted-foreground text-sm">Modern, scalable applications using the latest React ecosystem and TypeScript.</p>
                   </div>
-                  <div>
-                    <p className="font-medium">Business Type</p>
-                    <p className="text-muted-foreground">Limited Liability Company</p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">Progressive Web App Development</h4>
+                    <p className="text-muted-foreground text-sm">Fast, reliable web apps that work offline and provide native app experiences.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">Database Design & Integration</h4>
+                    <p className="text-muted-foreground text-sm">Efficient data management solutions with modern database technologies.</p>
                   </div>
                 </div>
               </div>
-            </div>
-            
-            <div>
-              <h3 className="text-xl font-semibold mb-4">Services</h3>
-              <ul className="space-y-2 text-muted-foreground">
-                <li>• Custom Web Application Development</li>
-                <li>• React & TypeScript Development</li>
-                <li>• Progressive Web App Development</li>
-                <li>• Full-Stack Application Solutions</li>
-                <li>• API Development & Integration</li>
-                <li>• UI/UX Design & Implementation</li>
-              </ul>
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">Full-Stack Application Solutions</h4>
+                    <p className="text-muted-foreground text-sm">Complete end-to-end development from frontend interfaces to backend services.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">API Development & Integration</h4>
+                    <p className="text-muted-foreground text-sm">RESTful APIs and third-party service integrations for seamless connectivity.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">UI/UX Design & Implementation</h4>
+                    <p className="text-muted-foreground text-sm">Beautiful, intuitive user interfaces designed for optimal user experience.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0"></div>
+                  <div className="text-left">
+                    <h4 className="font-semibold">Performance Optimization</h4>
+                    <p className="text-muted-foreground text-sm">Speed and efficiency improvements for existing applications.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </Card>
