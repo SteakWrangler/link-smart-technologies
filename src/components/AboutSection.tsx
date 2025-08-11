@@ -3,11 +3,11 @@ const AboutSection = () => {
     <section id="about" className="py-20 px-6">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-4xl md:text-5xl font-bold mb-8 bg-gradient-primary bg-clip-text text-transparent">
-          About LinkSmart Technologies
+          About Link Smart Technologies
         </h2>
         <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
           <p>
-            LinkSmart Technologies LLC specializes in creating innovative web applications 
+            Link Smart Technologies LLC specializes in creating innovative web applications 
             that bridge the gap between complex ideas and user-friendly digital solutions. 
             Our expertise lies in transforming business concepts into scalable, modern web platforms.
           </p>
