@@ -18,7 +18,7 @@ const Navigation = () => {
           
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="#home" className="text-foreground hover:text-primary transition-colors">
+            <a href="#" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="text-foreground hover:text-primary transition-colors cursor-pointer">
               Home
             </a>
             <a href="#projects" className="text-foreground hover:text-primary transition-colors">
@@ -48,9 +48,9 @@ const Navigation = () => {
           <div className="md:hidden mt-4 pb-4 border-t border-border pt-4">
             <div className="flex flex-col space-y-4">
               <a 
-                href="#home" 
-                className="text-foreground hover:text-primary transition-colors"
-                onClick={toggleMenu}
+                href="#" 
+                className="text-foreground hover:text-primary transition-colors cursor-pointer"
+                onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); toggleMenu(); }}
               >
                 Home
               </a>

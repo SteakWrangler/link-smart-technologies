@@ -23,15 +23,6 @@ const ContactSection = () => {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
-                    <Globe className="h-5 w-5 text-primary" />
-                  </div>
-                  <div>
-                    <p className="font-medium">Website</p>
-                    <p className="text-muted-foreground">linksmarttechnologies.com</p>
-                  </div>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
                   <div>
@@ -56,8 +47,8 @@ const ContactSection = () => {
               <ul className="space-y-2 text-muted-foreground">
                 <li>• Custom Web Application Development</li>
                 <li>• React & TypeScript Development</li>
-                <li>• E-commerce Platform Creation</li>
-                <li>• Educational Technology Solutions</li>
+                <li>• Progressive Web App Development</li>
+                <li>• Full-Stack Application Solutions</li>
                 <li>• API Development & Integration</li>
                 <li>• UI/UX Design & Implementation</li>
               </ul>
