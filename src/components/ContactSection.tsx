@@ -26,8 +26,8 @@ const ContactSection = () => {
                     <Mail className="h-5 w-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">contact@linksmarttechnologies.com</p>
+                    <p className="font-medium">Email us at</p>
+                    <p className="text-muted-foreground">linksmarttechlc@gmail.com</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-3">
@@ -56,7 +56,7 @@ const ContactSection = () => {
               <div className="mt-6">
                 <Button 
                   className="w-full shadow-glow-primary hover:shadow-glow-accent transition-all duration-300"
-                  onClick={() => window.open('mailto:contact@linksmarttechnologies.com', '_blank')}
+                  onClick={() => window.open('mailto:linksmarttechlc@gmail.com', '_blank')}
                 >
                   Start Your Project
                 </Button>
