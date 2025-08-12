@@ -82,7 +82,7 @@ const ContactSection = () => {
             
             <div className="mt-8 text-center">
               <p className="text-lg font-medium mb-2">Email us at</p>
-              <p className="text-muted-foreground text-lg">linksmarttechlc@gmail.com</p>
+              <p className="text-muted-foreground text-lg">linksmarttechllc@gmail.com</p>
             </div>
           </div>
         </Card>
