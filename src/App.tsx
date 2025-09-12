@@ -18,8 +18,8 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
-          <Route path="/tossorTaste-support" element={<TossOrTasteSupport />} />
-          <Route path="/tossorTaste-privacy-policy" element={<TossOrTastePrivacyPolicy />} />
+          <Route path="/tossortaste-support" element={<TossOrTasteSupport />} />
+          <Route path="/tossortaste-privacy-policy" element={<TossOrTastePrivacyPolicy />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
