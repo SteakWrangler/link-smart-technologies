@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+# Link Smart Technologies LLC
 
-## Project info
+A modern web application development company showcasing innovative digital solutions.
 
-**URL**: https://lovable.dev/projects/1b7a1515-b0c3-4a70-8157-089c93fa9400
+## About
 
-## How can I edit this code?
+Link Smart Technologies LLC specializes in building custom web applications using modern technologies. This repository contains the source code for our company website and serves as a demonstration of our development capabilities.
 
-There are several ways of editing your application.
+## Live Projects
 
-**Use Lovable**
+- **TossOrTaste** - A food discovery application
+- **SmartLinkLearning** - Educational platform solutions
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1b7a1515-b0c3-4a70-8157-089c93fa9400) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Tech Stack
 
 This project is built with:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- **React** - UI library for building interactive interfaces
+- **TypeScript** - Type-safe JavaScript
+- **Vite** - Fast build tool and development server
+- **Tailwind CSS** - Utility-first CSS framework
+- **shadcn/ui** - High-quality, accessible UI components
 
-## How can I deploy this project?
+## Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/1b7a1515-b0c3-4a70-8157-089c93fa9400) and click on Share -> Publish.
+### Prerequisites
 
-## Can I connect a custom domain to my Lovable project?
+- Node.js (v16 or higher)
+- npm or yarn
 
-Yes, you can!
+### Installation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```sh
+# Clone the repository
+git clone <repository-url>
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+# Navigate to the project directory
+cd link-smart-technologies
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The application will be available at `http://localhost:8080`
+
+### Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build locally
+- `npm run lint` - Run ESLint
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── pages/         # Page components
+├── hooks/         # Custom React hooks
+├── lib/           # Utility functions
+└── App.tsx        # Main application component
+```
+
+## Features
+
+- Responsive design optimized for all devices
+- Modern UI with smooth animations
+- Fast performance with Vite
+- Type-safe codebase with TypeScript
+- Accessible components following WCAG guidelines
+
+## Contact
+
+For business inquiries or project collaborations:
+- Email: linksmarttechllc@gmail.com
+
+## License
+
+Copyright © 2024 Link Smart Technologies LLC. All rights reserved.
