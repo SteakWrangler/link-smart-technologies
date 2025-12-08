@@ -7,6 +7,7 @@ import Index from "./pages/Index";
 import NotFound from "./pages/NotFound";
 import TossOrTasteSupport from "./pages/TossOrTasteSupport";
 import TossOrTastePrivacyPolicy from "./pages/TossOrTastePrivacyPolicy";
+import TossOrTasteTermsOfService from "./pages/TossOrTasteTermsOfService";
 
 const queryClient = new QueryClient();
 
@@ -20,6 +21,7 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/tossortaste-support" element={<TossOrTasteSupport />} />
           <Route path="/tossortaste-privacy-policy" element={<TossOrTastePrivacyPolicy />} />
+          <Route path="/tossortaste-terms-of-service" element={<TossOrTasteTermsOfService />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

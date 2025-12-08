@@ -65,8 +65,12 @@ const TossOrTasteSupport = () => {
                 <h4 className="font-semibold mb-2">Is my data safe?</h4>
                 <p className="text-muted-foreground">
                   Yes! We take your privacy seriously. Check out our{" "}
-                  <Link to="/tossorTaste-privacy-policy" className="text-primary hover:text-primary/80 transition-colors">
+                  <Link to="/tossortaste-privacy-policy" className="text-primary hover:text-primary/80 transition-colors">
                     Privacy Policy
+                  </Link>{" "}
+                  and{" "}
+                  <Link to="/tossortaste-terms-of-service" className="text-primary hover:text-primary/80 transition-colors">
+                    Terms of Service
                   </Link>{" "}
                   for more information.
                 </p>
