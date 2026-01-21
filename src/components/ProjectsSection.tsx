@@ -17,6 +17,13 @@ const ProjectsSection = () => {
       image: smartlinklearningPreview,
       url: "https://smartlinklearning.com",
       tags: ["EdTech", "Analytics", "Progressive Web App", "Responsive"]
+    },
+    {
+      title: "YourMealGuru",
+      description: "A personalized meal planning and recipe discovery platform that helps users find the perfect recipes based on their preferences, dietary needs, and available ingredients.",
+      image: "/placeholder.svg",
+      url: "https://yourmealguru.com",
+      tags: ["Food Tech", "Meal Planning", "Recipes", "Personalization"]
     }
   ];
 
