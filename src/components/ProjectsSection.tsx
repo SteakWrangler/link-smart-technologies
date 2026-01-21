@@ -1,6 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import tossortastePreview from "@/assets/tossortaste-preview.jpg";
 import smartlinklearningPreview from "@/assets/smartlinklearning-preview.jpg";
+import yourmealguruPreview from "@/assets/yourmealguru-preview.jpg";
 
 const ProjectsSection = () => {
   const projects = [
@@ -21,7 +22,7 @@ const ProjectsSection = () => {
     {
       title: "YourMealGuru",
       description: "A personalized meal planning and recipe discovery platform that helps users find the perfect recipes based on their preferences, dietary needs, and available ingredients.",
-      image: "/placeholder.svg",
+      image: yourmealguruPreview,
       url: "https://yourmealguru.com",
       tags: ["Food Tech", "Meal Planning", "Recipes", "Personalization"]
     }
